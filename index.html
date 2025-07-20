@@ -7,6 +7,178 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <header class="header">
+    <img src="logo.png" alt="Albawsala Logo" class="logo" />
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button id="langToggle">AR</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="overlay">
+      <h1 data-en="Albawsala Al-Dhaba Group" data-ar="مجموعة البوصلة الذهبية">Albawsala Al-Dhaba Group</h1>
+      <p data-en="Innovative Solutions in Construction, Oil & Trade" data-ar="حلول مبتكرة في البناء والخدمات النفطية والتجارة">Innovative Solutions in Construction, Oil & Trade</p>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2 data-en="About Us" data-ar="من نحن">About Us</h2>
+    <p data-en="Albawsala Al-Dhaba Company is a versatile enterprise with expertise in construction, oil services, real estate, and import-export activities. Established with a mission to deliver high-quality services and innovative solutions, we pride ourselves on crafting tailored approaches to meet the unique needs of our clients."
+       data-ar="شركة البوصلة الذهبية هي شركة متعددة التخصصات ذات خبرة في البناء، والخدمات النفطية، والعقارات، والأنشطة التجارية. تأسست بهدف تقديم خدمات عالية الجودة وحلول مبتكرة، ونفخر بتقديم نهج مخصص لتلبية الاحتياجات الفريدة لعملائنا.">
+      Albawsala Al-Dhaba Company is a versatile enterprise with expertise in construction, oil services, real estate, and import-export activities...
+    </p>
+  </section>
+
+  <section id="services" class="section">
+    <h2 data-en="Our Services" data-ar="خدماتنا">Our Services</h2>
+    <ul>
+      <li data-en="Construction Projects: Infrastructure, Real Estate, Public Buildings" data-ar="مشاريع البناء: البنية التحتية، العقارات، المباني العامة">Construction Projects: Infrastructure, Real Estate, Public Buildings</li>
+      <li data-en="Oil and Energy Services: Field support, Power Projects" data-ar="الخدمات النفطية: دعم الحقول، مشاريع الطاقة">Oil and Energy Services: Field support, Power Projects</li>
+      <li data-en="Import-Export Solutions: Material sourcing and delivery" data-ar="حلول الاستيراد والتصدير: توفير وتسليم المواد">Import-Export Solutions: Material sourcing and delivery</li>
+    </ul>
+  </section>
+
+  <section id="projects" class="section">
+    <h2 data-en="Recent Projects" data-ar="المشاريع الأخيرة">Recent Projects</h2>
+    <div class="project">
+      <h3 data-en="Temporary Accommodation for EPF Project (SLB Libya)" data-ar="توفير مساكن مؤقتة لمشروع EPF (شلمبرجير ليبيا)">Temporary Accommodation for EPF Project (SLB Libya)</h3>
+      <p data-en="Albawsala Al-Dhaba executed the complete setup of temporary accommodations for subcontractors involved in the EPF project, ensuring readiness for start-up without delay. This project included site preparation, modular housing, logistics, and compliance with safety standards."
+         data-ar="نفذت البوصلة الذهبية إعدادًا كاملاً للمساكن المؤقتة للمقاولين الفرعيين المشاركين في مشروع EPF، مع ضمان الجاهزية لبدء العمل دون تأخير. شمل المشروع إعداد الموقع، وتركيب وحدات سكنية عالية الجودة، والدعم اللوجستي، والامتثال لمعايير السلامة.">
+        Albawsala Al-Dhaba executed the complete setup of temporary accommodations for subcontractors involved in the EPF project...
+      </p>
+    </div>
+    <div class="project">
+      <h3 data-en="Handling & Lifting Operations (SLB Libya)" data-ar="عمليات الرفع والمناولة (شلمبرجير ليبيا)">Handling & Lifting Operations (SLB Libya)</h3>
+      <p data-en="Deployment of forklifts, loaders, and manual workforce for handling and lifting tasks."
+         data-ar="توفير الرافعات، اللوادر، والعمالة اليدوية لأعمال الرفع والمناولة.">
+        Deployment of forklifts, loaders, and manual workforce for handling and lifting tasks.
+      </p>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2 data-en="Contact Us" data-ar="تواصل معنا">Contact Us</h2>
+    <p>Email: info@gcgroup.ly | ops@gcgroup.ly</p>
+    <p>Phone: +218 91/92 5010151 | +218 91 3818409</p>
+    <p>WhatsApp: +218 91 5010151 | +218 91 0286286</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Albawsala Al-Dhaba Group</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
   <!-- Website content is omitted for brevity -->
+</body>
+</html>
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+  background: #f9f9f9;
+}
+.header {
+  background: #002855;
+  color: #fff;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .logo {
+  height: 50px;
+}
+.header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+.header nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+.hero {
+  background: url('assets/hero.jpg') no-repeat center center/cover;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+.hero .overlay {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+}
+.section {
+  padding: 2rem;
+  background: white;
+  margin: 1rem 0;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #002855;
+  color: #fff;
+}
+.contact-form input,
+.contact-form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+.contact-form button {
+  background-color: #d4af37;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+    <form class="contact-form" action="#" method="post">
+      <label for="name" data-en="Your Name:" data-ar=":الاسم">Your Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email" data-en="Your Email:" data-ar=":البريد الإلكتروني">Your Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message" data-en="Your Message:" data-ar=":رسالتك">Your Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit" data-en="Send Message" data-ar="إرسال">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Albawsala Al-Dhaba Group. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const toggleBtn = document.getElementById('langToggle');
+    let lang = 'en';
+    toggleBtn.addEventListener('click', () => {
+      lang = lang === 'en' ? 'ar' : 'en';
+      document.querySelectorAll('[data-en]').forEach(el => {
+        el.innerText = el.getAttribute(`data-${lang}`);
+      });
+      toggleBtn.innerText = lang.toUpperCase() === 'EN' ? 'AR' : 'EN';
+    });
+  </script>
 </body>
 </html>
